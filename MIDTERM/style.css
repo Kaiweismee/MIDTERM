@@ -12,6 +12,18 @@ header {
     margin: 0;
     padding: 25px 26px;
 }
+/*設定四大主題的背景*/
+#about-me,
+#skills,
+#Certifications,
+#experiences {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    margin: 20px 0; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ddd; 
+}
 
 nav {
     display: inline-block;
@@ -160,8 +172,6 @@ figcaption {
     justify-content: center;
     text-align: center;
     font-size: 20px;
-    background-color: #f0f0f0;
-    padding: 20px;
     box-sizing: border-box;
 }
 
